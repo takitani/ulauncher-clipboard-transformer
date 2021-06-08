@@ -1,18 +1,18 @@
 {
   "required_api_version": "^2.0.0",
-  "name": "Demo",
-  "description": "Demo extension",
-  "developer_name": "Aleksandr Gornostal",
+  "name": "CopyPastaProcessor",
+  "description": "CopyPastaProcessor extension",
+  "developer_name": "Takitani",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.05
   },
   "preferences": [
     {
-      "id": "demo_kw",
+      "id": "copypasta_kw",
       "type": "keyword",
       "name": "Demo",
-      "default_value": "dm"
+      "default_value": "cpp"
     },
     {
       "id": "item_name",
